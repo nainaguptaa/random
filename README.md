@@ -8,13 +8,6 @@ Then run the following commands to start up:
 1. minikube start
 2. minikube addons enable ingress
 
-</br>
-
-To run the nginx files:
-1. kubectl apply -f nginx-dep.yaml
-2. kubectl apply -f nginx-svc.yaml
-3. kubectl apply -f nginx-ingress.yaml
-4. kubectl apply -f nginx-configmap.yaml
 
 </br>
 
@@ -29,6 +22,14 @@ To run app-2 files:
 1. kubectl apply -f app-2-dep.yaml
 2. kubectl apply -f app-2-svc.yaml
 3. kubectl apply -f app-2-ingress.yaml
+
+</br>
+
+To run the nginx files:
+1. kubectl apply -f nginx-dep.yaml
+2. kubectl apply -f nginx-svc.yaml
+3. kubectl apply -f nginx-ingress.yaml
+4. kubectl apply -f nginx-configmap.yaml
 
 </br>
 
